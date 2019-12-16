@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0px"
+    android:layout_marginLeft="0px"
+    android:layout_marginTop="0px"
+    android:layout_marginRight="0px"
+    android:layout_marginBottom="0px"
+    android:background="#324755"
+    android:padding="0px"
+    android:paddingLeft="0px"
+    android:paddingTop="0px"
+    android:paddingRight="0px"
+    android:paddingBottom="0px"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/riftsoftdemi"
+        android:text="BETA"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/circular_progress_bar3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginLeft="179dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/riftsoftdemi"
+        android:text="ALPHA"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/circular_progress_bar2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/riftsoftdemi"
+        android:text="STRESS"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/top_btn" />
+
+    <ProgressBar
+        android:id="@+id/circular_progress_bar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="314dp"
+        android:layout_height="296dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="150dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="1"
+        android:progressDrawable="@drawable/circular_progressbar"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_btn"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/riftsoftdemi"
+        android:text="NN%"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/circular_progress_bar3"
+        app:layout_constraintTop_toTopOf="@+id/circular_progress_bar3" />
+
+    <ProgressBar
+        android:id="@+id/circular_progress_bar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="314dp"
+        android:layout_height="296dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="150dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="1"
+        android:progressDrawable="@drawable/circular_progressbar"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_btn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/riftsoftdemi"
+        android:text="NN%"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@id/circular_progress_bar"
+        app:layout_constraintTop_toTopOf="@id/circular_progress_bar" />
+
+    <ProgressBar
+        android:id="@+id/circular_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="314dp"
+        android:layout_height="296dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:outlineAmbientShadowColor="#F65C78"
+        android:outlineSpotShadowColor="#f65c78"
+        android:progress="1"
+        android:progressDrawable="@drawable/circular_progressbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bottom_btn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#d97d54"
+        android:fontFamily="@font/riftsoftdemi"
+        android:text="CONNECT"
+        android:textColor="#ffffff"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/riftsoftdemi"
+        android:text="NN%"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="@+id/circular_progress_bar2"
+        app:layout_constraintTop_toTopOf="@+id/circular_progress_bar2" />
+
+    <Button
+        android:id="@+id/top_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#d97d54"
+        android:fontFamily="@font/riftsoftdemi"
+        android:text="SHOW GRAPH"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circular_progress_bar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
